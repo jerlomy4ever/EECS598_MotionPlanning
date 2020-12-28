@@ -972,6 +972,7 @@ public:
         return true;
     }
 
+    // smoothing
     void short_cut(RobotBasePtr robot,vector<RRTNode*>& path,int iterations,double& step_size)
     {
         vector<RRTNode*> extend;
