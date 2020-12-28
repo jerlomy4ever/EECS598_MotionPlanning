@@ -20,7 +20,7 @@ The code is [here](https://github.com/jerlomy4ever/EECS598_MotionPlanning/blob/m
 The code is [here](https://github.com/jerlomy4ever/EECS598_MotionPlanning/blob/main/hw03/my_solution/myplugin.cpp)
 
 ## BiRRT
-![image](https://github.com/jerlomy4ever/EECS598_MotionPlanning/blob/main/hw03/my_solution/birrt.png)
+![image](https://github.com/jerlomy4ever/EECS598_MotionPlanning/blob/main/hw03/my_solution/birrt.gif)
 
 The code is [here](https://github.com/jerlomy4ever/EECS598_MotionPlanning/blob/main/hw03/my_solution/myplugin.cpp)
 
