@@ -13,3 +13,18 @@ The code is [here](https://github.com/jerlomy4ever/EECS598_MotionPlanning/blob/m
 ![GIF](https://github.com/jerlomy4ever/EECS598_MotionPlanning/blob/main/hw02/my_solution/02/anastar.gif)
 
 The code is [here](https://github.com/jerlomy4ever/EECS598_MotionPlanning/blob/main/hw02/my_solution/02/anastar.py)
+
+## RRT
+![image](https://github.com/jerlomy4ever/EECS598_MotionPlanning/blob/main/hw03/my_solution/rrt.png)
+
+The code is [here](https://github.com/jerlomy4ever/EECS598_MotionPlanning/blob/main/hw03/my_solution/myplugin.cpp)
+
+## BiRRT
+![image](https://github.com/jerlomy4ever/EECS598_MotionPlanning/blob/main/hw03/my_solution/birrt.png)
+
+The code is [here](https://github.com/jerlomy4ever/EECS598_MotionPlanning/blob/main/hw03/my_solution/myplugin.cpp)
+
+## RRT*
+![image](https://github.com/jerlomy4ever/EECS598_MotionPlanning/blob/main/hw03/my_solution/sc.png)
+
+The code is [here](https://github.com/jerlomy4ever/EECS598_MotionPlanning/blob/main/hw03/my_solution/myplugin.cpp)

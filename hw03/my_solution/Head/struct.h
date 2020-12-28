@@ -15,13 +15,10 @@ class RRTNode
     public:
  vector<double> q;
  RRTNode* parent;
- //RRTNode* left;
- //RRTNode* right;
  RRTNode ();
  RRTNode (vector<double>);
  RRTNode (vector<double>,RRTNode*);
  vector<RRTNode*> back_track_except_self ();
- //int axis_intree;
  unsigned int index;
 
 };
@@ -49,11 +46,11 @@ class NodeTree
 
     private:
     unordered_map<unsigned int,RRTNode*> map_ip;
-    //unordered_map<string,RRTNode*> map_sp;
     unsigned int index_count;
 
 };
 
+// decoder, from vector to string
 string tf_q2s(vector<double>);
 
 
@@ -61,10 +58,5 @@ pair<ae_int_t,real_2d_array> find_nearest_kd(kdtree,real_1d_array,int);
 
 pair<ae_int_t,real_2d_array> find_nearest_kd_range(kdtree,real_1d_array,double);
 
-RRTNode* get_kdTree(vector<RRTNode*>&,int);
-
-RRTNode* find_nearest(RRTNode*,vector<double>);
-
-vector<RRTNode*> find_nearest_range(RRTNode*,vector<double>, double );
 
 

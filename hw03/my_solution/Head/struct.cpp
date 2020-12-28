@@ -15,29 +15,20 @@ RRTNode::RRTNode ()
 {
     q={};
     parent=nullptr;
-
     index=0;
-    //left=nullptr;
-    //right=nullptr;
-    //axis_intree=-1;
 }
 
 RRTNode::RRTNode (vector<double> input)
 {
     q=input;
     parent=nullptr;
-
     index=0;
-    //left=nullptr;
-    //right=nullptr;
 }
 
 RRTNode::RRTNode (vector<double> input,RRTNode* p)
 {
     q=input;
     parent=p;
-    //left=nullptr;
-    //right=nullptr;
     index=0;
 }
 
@@ -88,9 +79,6 @@ void NodeTree::add(RRTNode* input)
     input->index=index_count;
     map_ip[index_count]=input;
     index_count++;
-    //string ans=tf_q2s(input->q);
-    //map_sp[ans]=input;
-
 }
 
 void NodeTree::remove(unsigned int i)
@@ -98,8 +86,6 @@ void NodeTree::remove(unsigned int i)
     if(map_ip.count(i))
     {
     RRTNode* temp=map_ip[i];
-    //string ans=tf_q2s(temp->q);
-    //map_sp.erase(ans);
     map_ip.erase(i);
     delete temp;
     }
@@ -216,38 +202,3 @@ pair<ae_int_t,real_2d_array> find_nearest_kd_range(kdtree kdt,real_1d_array x,do
 
 
 
-RRTNode* get_kdTree(vector<RRTNode*>& input,int depth)
-{
-    /*if(input.size()==0)
-    {
-        cout<<"get_kdTree: input size = 0";
-        return nullptr;}
-    int k=input[0]->q.size();
-
-    int axis=depth%k;*/
-
-
-    RRTNode* root=input[0];
-
-
-    return root;
-}
-
-RRTNode* find_nearest(RRTNode* kd_tree,vector<double> target)
-{
-    RRTNode* ans=kd_tree;
-
-    return ans;
-}
-
-vector<RRTNode*> find_nearest_range(RRTNode* kd_tree,vector<double> target,double range)
-{
-    vector<RRTNode*>  ans;
-    if(range==0)
-    {
-        ans.push_back(find_nearest(kd_tree,target));
-        return ans;
-    }
-
-    return ans;
-}
