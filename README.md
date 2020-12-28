@@ -6,33 +6,24 @@ please follow the instruction [here](https://github.com/jerlomy4ever/EECS598_Mot
 
 ## A*
 ![GIF](https://github.com/jerlomy4ever/EECS598_MotionPlanning/blob/main/hw02/my_solution/01/astar.gif)
-
 The code is [here](https://github.com/jerlomy4ever/EECS598_MotionPlanning/blob/main/hw02/my_solution/01/astar.py)
 
 ## ANA*
 ![GIF](https://github.com/jerlomy4ever/EECS598_MotionPlanning/blob/main/hw02/my_solution/02/anastar.gif)
-
 The code is [here](https://github.com/jerlomy4ever/EECS598_MotionPlanning/blob/main/hw02/my_solution/02/anastar.py)
 
 ## RRT
 Red line is the path from RRT
-
 Blue line is the path after smoothing
-
 ![image](https://github.com/jerlomy4ever/EECS598_MotionPlanning/blob/main/hw03/my_solution/rrt.gif)
-
 The code is [here](https://github.com/jerlomy4ever/EECS598_MotionPlanning/blob/main/hw03/my_solution/myplugin.cpp)
 
 ## BiRRT
 Red line is the path from RRT
-
 Blue line is the path after smoothing
-
 ![image](https://github.com/jerlomy4ever/EECS598_MotionPlanning/blob/main/hw03/my_solution/birrt.gif)
-
 The code is [here](https://github.com/jerlomy4ever/EECS598_MotionPlanning/blob/main/hw03/my_solution/myplugin.cpp)
 
 ## RRT*
 ![image](https://github.com/jerlomy4ever/EECS598_MotionPlanning/blob/main/hw03/my_solution/sc.png)
-
 The code is [here](https://github.com/jerlomy4ever/EECS598_MotionPlanning/blob/main/hw03/my_solution/myplugin.cpp)
