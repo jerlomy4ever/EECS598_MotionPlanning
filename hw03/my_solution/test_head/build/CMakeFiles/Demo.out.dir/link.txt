@@ -1,0 +1,1 @@
+/usr/bin/c++    -rdynamic CMakeFiles/Demo.out.dir/try.cpp.o  -o Demo.out Head/libStructSelfDefine.a alglib-3.16.0.cpp.gpl/cpp/src/libalglib.a 

@@ -1,0 +1,2 @@
+/usr/bin/ar qc libStructSelfDefine.a  CMakeFiles/StructSelfDefine.dir/struct.cpp.o
+/usr/bin/ranlib libStructSelfDefine.a
