@@ -13,13 +13,13 @@ using namespace alglib;
 class RRTNode
 {
     public:
- vector<double> q;
- RRTNode* parent;
- RRTNode ();
- RRTNode (vector<double>);
- RRTNode (vector<double>,RRTNode*);
- vector<RRTNode*> back_track_except_self ();
- unsigned int index;
+        vector<double> q;
+        RRTNode* parent;
+        RRTNode ();
+        RRTNode (vector<double>);
+        RRTNode (vector<double>,RRTNode*);
+        vector<RRTNode*> back_track_except_self ();
+        unsigned int index;
 
 };
 
@@ -28,31 +28,32 @@ class NodeTree
 {
     public:
  
- NodeTree ();
+        NodeTree ();
 
-    void add(RRTNode*);
+        ~NodeTree ();
 
-    void remove(unsigned int);
+        void add(RRTNode*);
 
-    vector<RRTNode*> get();
+        void remove(unsigned int);
 
-    RRTNode* get(unsigned int);
+        vector<RRTNode*> get();
 
-    vector<RRTNode*> back_track(unsigned int);
+        RRTNode* get(unsigned int);
 
-    kdtree kdTree();
+        vector<RRTNode*> back_track(unsigned int);
 
-    unsigned int size();
+        kdtree kdTree();
+
+        unsigned int size();
 
     private:
-    unordered_map<unsigned int,RRTNode*> map_ip;
-    unsigned int index_count;
+        unordered_map<unsigned int,RRTNode*> map_ip; // map index and point
+        unsigned int index_count;
 
 };
 
 // decoder, from vector to string
 string tf_q2s(vector<double>);
-
 
 pair<ae_int_t,real_2d_array> find_nearest_kd(kdtree,real_1d_array,int);
 

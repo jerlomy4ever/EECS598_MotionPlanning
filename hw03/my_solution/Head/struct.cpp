@@ -74,6 +74,14 @@ NodeTree::NodeTree ()
     index_count=0;
 }
 
+NodeTree::~NodeTree ()
+{
+    index_count=0;
+    for (auto& it : map_ip) {
+        delete it.second;
+    }
+}
+
 void NodeTree::add(RRTNode* input)
 {
     input->index=index_count;
